@@ -232,6 +232,7 @@ function renderProjectDetails() {
 document.addEventListener("DOMContentLoaded", () => {
   renderProjects();
   renderEvents();
+  renderProjectDetails();
   renderPhotos();
   renderNews();
 });
