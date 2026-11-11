@@ -17,7 +17,7 @@ const CONTENT = {
     { title: "NRPS", meta: "live set · 2025" },
     { title: "trapezius", meta: "for intonarumori · 2025" },
     { title: "haché", meta: "for intonarumori · 2025" },
-    { title: "Re-Imagine Europe Pilot Study #8 – Glitch Tonic: Building an Active Artistic Community", meta: "2025" },
+    { title: "Re-Imagine Europe Pilot Study #8 – Glitch Tonic", meta: "2025" },
     { title: "kopfkissen", meta: "multichannel fixed-media · 2025" },
     { title: "thirst in the liquid depths", meta: "live electronics · 2025" },
     { title: "dakor", meta: "for organ · 2025" },
