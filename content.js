@@ -108,8 +108,23 @@ const CONTENT = {
     { src: "photos/photo_5361537774911171940_y.jpg", caption: "úúú" },
   ],
 
-  news: [
-    { text: 'Working on disgusting things, so excited, check <a href="https://miro.com/app/board/uXjVEa6gOZ8=/?share_link_id=397290439754" target="_blank" rel="noopener">this</a> out!', date: "17/10/26"},
+  // news: [
+  //   { text: 'Working on disgusting things, so excited, check <a href="https://miro.com/app/board/uXjVEa6gOZ8=/?share_link_id=397290439754" target="_blank" rel="noopener">this</a> out!', date: "17/10/26"},
+  // ],
+
+     projectDetails: [
+    {
+      id: "chao",
+      title: "chaotic synth app",
+      // meta: "live set · 2026",
+      text: `I started working with chaotic synthesis in the beginning of 2026. Firstly, I developed a desktop application in openFrameworks with assistance of AI. Later, Slávo Krekovič and I began working on developing an interface for our smartphones. This collaboration resulted in the music project Spicy Stuff.`,
+    },
+    {
+      id: "must have been the wind",
+      title: "must have been the wind",
+      meta: "live set / installation · 2026",
+      text: `The project was commmisioned by the artistic collective ooo ♥. Through basic synthesis methods and filters, I was trying to imagine how nature of future might sound like - from similar to distorted and unrecognizable sounds. I also used data from sensors to create generative proccesses.`,
+    },
   ],
    
 };
