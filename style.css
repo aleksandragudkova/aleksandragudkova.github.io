@@ -385,6 +385,7 @@ button:focus-visible {
 .label {
   font-family: var(--font-mono);
   font-size: 1rem;
+  font-weight: 700;
   letter-spacing: 0.07em;
   text-transform: uppercase;
   color: var(--ink);
@@ -656,17 +657,16 @@ button:focus-visible {
 .hero {
   flex-direction: row;
   flex-wrap: nowrap;
-  align-items: center;
-  justify-content: flex-start;
+  align-items: end;
+  justify-content: center;
   gap: 1.5rem 2rem;
 }
 .hero-text { min-width: 0; }
 .hero-photo {
   flex-shrink: 0;
-  width: clamp(90px, 14vw, 150px);   /* photo size */
+  width: clamp(100px, 14vw, 160px);   /* photo size */
   aspect-ratio: 4 / 5;
   object-fit: cover;
-  filter: grayscale(1) contrast(1.05);
   background: #111;
 }
 @media (max-width: 600px) { .hero { flex-wrap: wrap; } }
@@ -675,7 +675,7 @@ button:focus-visible {
 .projects-note a { color: var(--ink); text-decoration: underline; text-underline-offset: 2px; }
 
 .detail { margin-bottom: 2.5rem; }
-.detail-title { margin: 0; font-family: var(--font-display); font-weight: 700; font-size: 1rem; }
+.detail-title { margin: 0; font-family: var(--font-display); font-weight: 600; font-size: 1rem; }
 .detail-meta  { margin: 0.2rem 0 0.6rem; font-family: var(--font-mono); font-size: 0.72rem; color: var(--ink-dim); }
 .detail-text  { margin: 0; max-width: 60ch; font-size: 0.85rem; line-height: 1.55; }
 .detail-text a { text-decoration: underline; text-underline-offset: 2px; }
