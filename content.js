@@ -190,6 +190,31 @@ function renderPhotos() {
     .join("");
 }
 
+function renderProjectDetails() {
+  const root = document.getElementById("detailsList");
+  if (!root) return;
+  root.innerHTML = (CONTENT.projectDetails || []).map((d) => {
+    const media = (d.media || []).map((m) => {
+      const cap = m.caption ? `<figcaption>${m.caption}</figcaption>` : "";
+      if (m.type === "youtube") {
+        return `<div class="video"><iframe src="https://www.youtube-nocookie.com/embed/${m.id}" title="${m.caption || d.title}" loading="lazy" allowfullscreen></iframe></div>`;
+      }
+      if (m.type === "video") {
+        return `<figure><video controls preload="metadata" src="${m.src}"></video>${cap}</figure>`;
+      }
+      return `<figure><img src="${m.src}" alt="${m.caption || d.title}" loading="lazy">${cap}</figure>`;
+    }).join("");
+
+    return `
+      <article class="detail" ${d.id ? `id="${d.id}"` : ""}>
+        <h2 class="detail-title">${d.title}</h2>
+        ${d.meta ? `<p class="detail-meta">${d.meta}</p>` : ""}
+        ${d.text ? `<p class="detail-text">${d.text}</p>` : ""}
+        ${media ? `<div class="detail-media">${media}</div>` : ""}
+      </article>`;
+  }).join("");
+}
+
 // function renderNews() {
 //   const list = document.getElementById("newsList");
 //   if (!list) return;
