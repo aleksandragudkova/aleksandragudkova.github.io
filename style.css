@@ -11,7 +11,7 @@
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
-.side-nav a { color: #BFBFBF; transition: color 0.15s ease; }
+.side-nav a { color: #A3A3A3; transition: color 0.15s ease; }
 .side-nav a:hover,
 .side-nav a:focus-visible,
 .side-nav a.active { color: #fff; }
