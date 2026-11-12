@@ -117,7 +117,7 @@ const CONTENT = {
       id: "chao",
       title: "chaotic synth app",
       // meta: "live set · 2026",
-      text: `I started working with chaotic synthesis in the beginning of 2026. Firstly, I developed a desktop application in openFrameworks with assistance of AI. Later, Slávo Krekovič and I began working on developing an interface for our smartphones. This collaboration resulted in the music project Spicy Stuff.`,
+      text: `I started working with chaotic synthesis at the beginning of 2026. Firstly, I developed a desktop application in openFrameworks with assistance of AI. It had 4 oscillators, filters, XY pad for interpolating between oscillators and OSC and MIDI reciver. However, I still didn't know how I wanted to navigate the interface. Later, Slávo Krekovič and I began working on developing an smartphone instruments - for me transfer of my desktop synth to the phone. In the process some features were added, e.g. gyroscope and presets. This collaboration resulted in my semester project and in the music project Spicy Stuff.`,
     },
     {
       id: "must have been the wind",
