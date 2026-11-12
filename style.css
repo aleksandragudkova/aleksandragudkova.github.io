@@ -118,7 +118,7 @@ body {
   z-index: 0;
   pointer-events: none;
   /* background: radial-gradient(90% 80% at center, transparent 45%, rgba(0, 0, 0, 0.75) 100%); */
-  background: radial-gradient(90% 80% at center, transparent 45%, #e66465, #9198e5);
+  background: radial-gradient(90% 80% at center, #e66465, #9198e5);
 }
 
 .clear-hint {
