@@ -116,7 +116,7 @@ const CONTENT = {
     {
       id: "chao",
       title: "chaotic synth app",
-      // meta: "live set · 2026",
+      meta: "instrument",
       text: `I started working with chaotic synthesis at the beginning of 2026. Firstly, I developed a desktop application in openFrameworks with assistance of AI. The sound idea was to select some points from the sound wave samples and apply to each point its own chaotic map (in this case the Lorenz system) on a y-axis. The synth had 4 oscillators, filters, xy pad for interpolating between oscillators, brownian motion and OSC and MIDI reciver. However, I still didn't know how I want to navigate the interface. Later, I decided to transfer my desktop synth to the phone app, when Slávo Krekovič and I began working on developing instruments for our phones. In the process some features were added, e.g. gyroscope and presets. This collaboration resulted in my semester project and in the music project Spicy Stuff.`,
     },
     {
