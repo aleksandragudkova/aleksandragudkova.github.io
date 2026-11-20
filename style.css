@@ -544,10 +544,10 @@ button:focus-visible {
   font-family: var(--font-mono);
   color: var(--ink);
   flex-shrink: 0;
-  width: 3rem;
+  width: auto;          /* was 3rem */
+  white-space: nowrap;  /* keeps "18 - 20.3.27" on one line */
   font-size: 0.75rem;
 }
-
 /* photos */
 
 .photo-grid {
