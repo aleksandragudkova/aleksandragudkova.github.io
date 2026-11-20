@@ -40,7 +40,7 @@ const CONTENT = {
   ],
 
   eventsUpcoming: [
-    { date: "18-20.3.27", title: "Exhibition + performance — Forum Stadtpark, Graz" },
+    { date: "18 - 20.3.27", title: "Exhibition + performance — Forum Stadtpark, Graz" },
   ],
 
   eventsByYear: {
