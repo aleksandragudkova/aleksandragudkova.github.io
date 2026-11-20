@@ -40,7 +40,7 @@ const CONTENT = {
   ],
 
   eventsUpcoming: [
-    // { date: "12.9", title: "Some Festival — Venue, City" },
+    { date: "18-20.3.27", title: "Exhibition + performance — Forum Stadtpark, Graz" },
   ],
 
   eventsByYear: {
